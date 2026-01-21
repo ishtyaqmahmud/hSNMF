@@ -49,3 +49,16 @@ The core mechanis<img width="2816" height="1536" alt="overview_hSNMF" src="https
 4.  **Dual-Graph Clustering:** Combine the smoothed spatial factors with transcriptomic features to generate final, spatially coherent clusters using Leiden algortihm.
 
 ---
+
+## 📜 Citation
+If you find this code or methodology useful in your research, please cite our ISBI 2026 paper:
+
+@inproceedings{Mahmud_ISBI_2026_hSNMF,
+  title     = {hSNMF: Hybrid Spatially Regularized NMF for Image-Derived Spatial Transcriptomics},
+  author    = {Mahmud, Md. Ishtyaq and Kochat, Veena and Satpati, Suresh and 
+               Dwarampudi, Jagan Mohan Reddy and Anzum, Humaira and 
+               Rai, Kunal and Banerjee, Tania},
+  booktitle = {Proceedings of the IEEE International Symposium on Biomedical Imaging (ISBI)},
+  year      = {2026},
+  publisher = {IEEE}
+}
