@@ -34,7 +34,7 @@ Why use hSNMF over other tools?
 
 The core mechanism of hSNMF involves an iterative diffusion process guided by a hybrid spatial adjacency matrix.
 
-The core mechanis<img width="2816" height="1536" alt="overview_hSNMF" src="https://github.com/user-attachments/assets/09e61fc6-955e-41a8-97c9-76fc7ebb0f7d" />
+<img width="2816" height="1536" alt="overview_hSNMF" src="https://github.com/user-attachments/assets/09e61fc6-955e-41a8-97c9-76fc7ebb0f7d" />
 
 **Figure 1: Schematic overview of the hSNMF framework.** The methodology seamlessly integrates transcriptomic and spatial modalities across four key stages: (1) **Base Decomposition** of gene expression into latent factors via standard NMF; (2) **Hybrid Graph Construction** capturing multi-scale spatial architecture; (3) **Spatial Regularization** via iterative diffusion to smooth latent factors based on tissue proximity; and (4) **Dual-Graph Clustering** that combines smoothed transcriptomic features with spatial connectivity to identify spatially coherent biological domains.
 
