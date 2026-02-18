@@ -60,3 +60,13 @@ If you find this code or methodology useful in your research, please cite our IS
   year={2026},
   publisher={IEEE}
 }
+
+```bibtex
+@inproceedings{Mahmud_ISBI_2026_hSNMF,
+  title={hSNMF: Hybrid Spatially Regularized NMF for Image-Derived Spatial Transcriptomics},
+  author={Mahmud, Md. Ishtyaq and Kochat, Veena and Satpati, Suresh and Dwarampudi, Jagan Mohan Reddy and Anzum, Humaira and Rai, Kunal and Banerjee, Tania},
+  booktitle={Proceedings of the IEEE International Symposium on Biomedical Imaging (ISBI)},
+  year={2026},
+  publisher={IEEE}
+}
+``` 
