@@ -58,7 +58,7 @@ The core mechanis<img width="2816" height="1536" alt="overview_hSNMF" src="https
 git clone [https://github.com/YOUR_USERNAME/hSNMF.git](https://github.com/YOUR_USERNAME/hSNMF.git)
 cd hSNMF
 ```
-**2. Install Dependencies
+### **2. Install Dependencies
 We recommend using a virtual environment (Conda or venv).
 
 ```bash
