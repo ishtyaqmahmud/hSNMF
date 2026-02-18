@@ -5,7 +5,7 @@ Leiden resolution values. It includes spatial graph metrics (Adjacency Score)
 and performs spatial smoothing of NMF embeddings using a hybrid spatial graph.
 
 Run:
-    python nmf_sweep.py /path/to/my_data.h5ad
+    python hSNMF_model.py /path/to/my_data.h5ad
 
 Dependencies: scanpy, numpy, pandas, scikit-learn, networkx, scipy
 """
