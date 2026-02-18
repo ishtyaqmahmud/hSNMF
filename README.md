@@ -49,8 +49,6 @@ The core mechanis<img width="2816" height="1536" alt="overview_hSNMF" src="https
 ---
 ## 📦 Installation
 
-hSNMF is designed as a modular Python package.
-
 ### **Prerequisites**
 * Python >= 3.10
 * RAM: ~16GB (for typical Xenium datasets)
@@ -60,7 +58,7 @@ hSNMF is designed as a modular Python package.
 git clone [https://github.com/YOUR_USERNAME/hSNMF.git](https://github.com/YOUR_USERNAME/hSNMF.git)
 cd hSNMF
 ```
-2. Install Dependencies
+**2. Install Dependencies
 We recommend using a virtual environment (Conda or venv).
 
 ```bash
