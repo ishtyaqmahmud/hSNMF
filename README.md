@@ -55,7 +55,7 @@ The core mechanis<img width="2816" height="1536" alt="overview_hSNMF" src="https
 
 ### **1. Clone the Repository**
 ```bash
-git clone [https://github.com/YOUR_USERNAME/hSNMF.git](https://github.com/YOUR_USERNAME/hSNMF.git)
+git clone [https://github.com/ishtyaqmahmud/hSNMF.git](https://github.com/ishtyaqmahmud/hSNMF.git)
 cd hSNMF
 ```
 ### 2. Create environment
