@@ -39,8 +39,6 @@ The core mechanis<img width="2816" height="1536" alt="overview_hSNMF" src="https
 **Figure 1: Schematic overview of the hSNMF framework.** The methodology seamlessly integrates transcriptomic and spatial modalities across four key stages: (1) **Base Decomposition** of gene expression into latent factors via standard NMF; (2) **Hybrid Graph Construction** capturing multi-scale spatial architecture; (3) **Spatial Regularization** via iterative diffusion to smooth latent factors based on tissue proximity; and (4) **Dual-Graph Clustering** that combines smoothed transcriptomic features with spatial connectivity to identify spatially coherent biological domains.
 
 
-
-
 **The four-step process (as seen above):**
 
 1.  **Base Decomposition:** Decompose the gene expression matrix ($X$) using standard NMF into latent factors ($W$) and gene programs ($H$).
@@ -49,6 +47,31 @@ The core mechanis<img width="2816" height="1536" alt="overview_hSNMF" src="https
 4.  **Dual-Graph Clustering:** Combine the smoothed spatial factors with transcriptomic features to generate final, spatially coherent clusters using Leiden algortihm.
 
 ---
+## 📦 Installation
+
+hSNMF is designed as a modular Python package.
+
+### **Prerequisites**
+* Python >= 3.10
+* RAM: ~16GB (for typical Xenium datasets)
+
+### **1. Clone the Repository**
+```bash
+git clone [https://github.com/YOUR_USERNAME/hSNMF.git](https://github.com/YOUR_USERNAME/hSNMF.git)
+cd hSNMF
+```
+2. Install Dependencies
+We recommend using a virtual environment (Conda or venv).
+
+```bash
+# Create environment
+conda create -n hsnmf_env python=3.10
+conda activate hsnmf_env
+
+# Install requirements
+pip install -r requirements.txt
+```
+
 
 ## 📜 Citation
 If you find this code or methodology useful in your research, please cite our ISBI 2026 paper:
