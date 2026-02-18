@@ -58,17 +58,21 @@ The core mechanis<img width="2816" height="1536" alt="overview_hSNMF" src="https
 git clone [https://github.com/YOUR_USERNAME/hSNMF.git](https://github.com/YOUR_USERNAME/hSNMF.git)
 cd hSNMF
 ```
-### 2. Install Dependencies
+### 2. Create environment
 We recommend using a virtual environment (Conda or venv).
 
 ```bash
-# Create environment
 conda create -n hsnmf_env python=3.10
 conda activate hsnmf_env
-
+```
+### 3. Install Dependencies
+All required high-level Python dependencies are listed in the requirements.txt file located at the repository root. Install them via pip:
+```bash
 # Install requirements
+pip install --upgrade pip
 pip install -r requirements.txt
 ```
+
 
 
 ## 📜 Citation
