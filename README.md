@@ -78,13 +78,13 @@ pip install -r requirements.txt
 ## 📜 Citation
 If you find this code or methodology useful in your research, please cite our ISBI 2026 paper:
 
-M. I. Mahmud, V. Kochat, S. Satpati, J. M. R. Dwarampudi, H. Anzum, K. Rai, and T. Banerjee, "hSNMF: Hybrid Spatially Regularized NMF for Image-Derived Spatial Transcriptomics," in Proceedings of the IEEE International Symposium on Biomedical Imaging (ISBI), IEEE, 2026.
+Mahmud, M. I., Kochat, V., Satpati, S., Dwarampudi, J. M. R., Anzum, H., Rai, K., & Banerjee, T. (2026). hSNMF: Hybrid spatially regularized NMF for image-derived spatial transcriptomics. In Proceedings of the IEEE International Symposium on Biomedical Imaging (ISBI '26). IEEE.
 
 ```bibtex
 @inproceedings{Mahmud_ISBI_2026_hSNMF,
-  title={hSNMF: Hybrid Spatially Regularized NMF for Image-Derived Spatial Transcriptomics},
+  title={{hSNMF}: Hybrid Spatially Regularized {NMF} for Image-Derived Spatial Transcriptomics},
   author={Mahmud, Md. Ishtyaq and Kochat, Veena and Satpati, Suresh and Dwarampudi, Jagan Mohan Reddy and Anzum, Humaira and Rai, Kunal and Banerjee, Tania},
-  booktitle={Proceedings of the IEEE International Symposium on Biomedical Imaging (ISBI)},
+  booktitle={Proceedings of the IEEE International Symposium on Biomedical Imaging (ISBI '26)},
   year={2026},
   publisher={IEEE}
 }
