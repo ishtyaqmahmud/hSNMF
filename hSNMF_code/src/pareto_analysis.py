@@ -5,7 +5,7 @@ from adjustText import adjust_text
 
 # --- 1) Read and prepare the SNMF data ---
 # Define the path to your data file
-file_path = "/project/banerjee/ishtyaq/CPRIT/project2/SNMF/snmf_rank_resolution_sweep_with_spatial_withoutHybrid.csv"
+file_path = "**/snmf_rank_resolution_sweep_with_spatial_withoutHybrid.csv"
 
 # Read the CSV into a pandas DataFrame
 df_snmf = pd.read_csv(file_path)
